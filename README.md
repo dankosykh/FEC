@@ -14,6 +14,12 @@
 
 ## Summary
   Project Catwalk is an ecommerce, retail-centric website application. It updates our companies outdated, retail portal with a modernized, React-based client running on a lean express server. The application organizes and serves information regarding product details, related products, user looks, product question and anwers, and product reviews, as well as a product search feature.
+  
+## Gallery
+![Screen Shot 2021-04-21 at 2 50 04 PM](https://user-images.githubusercontent.com/14881563/115625686-470ede80-a2b1-11eb-9266-10590bde273d.png)
+![Screen Shot 2021-04-21 at 2 50 17 PM](https://user-images.githubusercontent.com/14881563/115625705-4d04bf80-a2b1-11eb-8838-37be56bd89f7.png)
+![Screen Shot 2021-04-21 at 2 50 29 PM](https://user-images.githubusercontent.com/14881563/115625712-51c97380-a2b1-11eb-8ea6-3dc504f72c63.png)
+![Screen Shot 2021-04-21 at 2 51 50 PM](https://user-images.githubusercontent.com/14881563/115625721-55f59100-a2b1-11eb-8050-91d4e4d7b83b.png)
 
 ### Installation
 ###### Pre-Installation Requirements
@@ -34,7 +40,7 @@
 
 ## Module Descriptions
 
-### Product Details
+### Product Details (Liem Nguyen)
 In this component, a user can view a product, select through different assortments, and view different accessories. Features include:
 - Right and left arrows to change primary product photo
 - Scrolling sidebars to view everything the search option has to offer
@@ -47,7 +53,7 @@ In this component, a user can view a product, select through different assortmen
 - A Checkout button
 
 
-### Related Products and User Looks
+### Related Products and User Looks (Michael Smith)
   Related Products Provides a list of scrollable cards that we think a user would be interested in. The component includes:
   - A table for comparing a related product to the current primary product. The table lists characterstics shared and unique to both products and is availble within a model on click.
   - A carousel of cards that move left and right on arrow clicks. Cards will scroll the exact width of a product card. Arrows will not display if not needed
@@ -58,8 +64,7 @@ In this component, a user can view a product, select through different assortmen
   - A delete card icon that removes a card from looks and the session on click
   - On page refresh, a user's looks will persists until the tab or window is closed.
 
-### Product Questions and Answers 
-## Connie Tsai
+### Product Questions and Answers (Connie Tsai)
 The QA component allows a user to read and add questions and answers from other users for the selected product. Features include:
 - Submitting a question/answer
 - Containment of answers to question to scrollable div
@@ -67,7 +72,7 @@ The QA component allows a user to read and add questions and answers from other 
 - Mark answers/questions helpful
 - Report inappropriate questions/answers
 
-### Product Reviews
+### Product Ratings and Reviews (Daniel Kosykh)
 Ratings and Reviews Module
 
 This module features the ratings and reviews based on a specific product ID. This component is subdivided into 2 interactive columns, a meta-analysis column and a review list column.
@@ -94,4 +99,3 @@ Future enhancements would include a section for a reviewer to post pictures and 
 
 ## Acknowledgements
   We'd like to express our deepest gratitude to Rob Lopez and Maia Ling for their feedback on this project.
-
