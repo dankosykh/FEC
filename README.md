@@ -88,7 +88,8 @@ Future enhancements would include a section for a reviewer to post pictures and 
 
 ### Demo gif with emphasis on Ratings and Reviews Module
 
-![CLDM_Demo](https://user-images.githubusercontent.com/14881563/115630539-087d2200-a2b9-11eb-83b5-1c2efb064a2a.gif)
+![CLDM_Demo](https://user-images.githubusercontent.com/14881563/115631002-d9b37b80-a2b9-11eb-9824-e1316a06e3e5.gif)
+
 
 
 
