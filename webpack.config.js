@@ -5,7 +5,7 @@ module.exports = {
   entry: './client/src/index.jsx',
   output: {
     filename: 'bundle.js',
-    path: path.join(__dirname, 'client/dist')
+    path: path.join(__dirname, 'client/dist/bundle')
   },
   watch: true,
   module: {
