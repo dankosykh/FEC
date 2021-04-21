@@ -58,7 +58,8 @@ In this component, a user can view a product, select through different assortmen
   - A delete card icon that removes a card from looks and the session on click
   - On page refresh, a user's looks will persists until the tab or window is closed.
 
-### Product Questions and Answers
+### Product Questions and Answers 
+## Connie Tsai
 The QA component allows a user to read and add questions and answers from other users for the selected product. Features include:
 - Submitting a question/answer
 - Containment of answers to question to scrollable div
@@ -93,7 +94,4 @@ Future enhancements would include a section for a reviewer to post pictures and 
 
 ## Acknowledgements
   We'd like to express our deepest gratitude to Rob Lopez and Maia Ling for their feedback on this project.
-
-  Additional Thanks To:
-
 
