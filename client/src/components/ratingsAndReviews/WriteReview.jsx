@@ -57,14 +57,12 @@ class WriteReview extends React.Component {
           [e.target.name]: e.target.value,
           selected: true,
           selectedStarsArray: new Array(5).fill(true, 0, e.target.value)
-        })
+        });
       } else {
-        this.setState({
-          [e.target.name]: e.target.value
-        })
+        this.setState({ [e.target.name]: e.target.value })
       }
     }
-  }
+  };
 
   handleSubmit(e) {
     e.preventDefault();
@@ -119,10 +117,10 @@ class WriteReview extends React.Component {
       comfortID: metaChar.Comfort ? metaChar.Comfort.id : null,
       sizeID: metaChar.Size ? metaChar.Size.id : null ,
       widthID: metaChar.Width ? metaChar.Width.id : null
-    })
-  }
+    });
+  };
 
-  handleMouseEnter(e){
+  handleMouseEnter(e) {
     e.stopPropagation();
     let select = new Array(Number(e.target.getAttribute('value'))).fill(true);
     let unselect = new Array(5 - select.length).fill(false);
@@ -179,7 +177,7 @@ class WriteReview extends React.Component {
           alt='star'
         />
       </label>
-  )}
+  )};
 
   buildFormInputFields(inputField, index) {
     let inputLowercase = inputField.toLowerCase();
@@ -199,7 +197,7 @@ class WriteReview extends React.Component {
           />
         </label>
       </div>
-  )}
+  )};
 
   buildYesNoButtons(bool) {
     return (
@@ -221,7 +219,7 @@ class WriteReview extends React.Component {
         </label>
       </div>
     )
-  }
+  };
 
   render () {
     return (

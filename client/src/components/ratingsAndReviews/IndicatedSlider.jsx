@@ -28,9 +28,6 @@ const IndicatedSlider = (props) => (
     <h5>{props.characteristic}</h5>
     <div className='tri-bar-box'>
       <div className={assignSpecifics(props.characteristic)}>
-        <div className='even-blocks'></div>
-        <div className='even-blocks'></div>
-        <div className='even-blocks'></div>
         <div className='label-characteristic'></div>
       </div>
       <div className='icon-divs-container'>

@@ -7,9 +7,7 @@ import './ratingBreakdown.css';
 
 const RatingBreakdown = (props) => {
   return props.productMetadata.totals.totalRatings
-  ?
-    (
-    <div className='rating-breakdown-container'>
+  ? <div className='rating-breakdown-container'>
       <div className='number-stars-container'>
         <div className='big-number'>
           <h1>{props.productMetadata.totals.avgRating.toFixed(1)}</h1>
@@ -30,15 +28,12 @@ const RatingBreakdown = (props) => {
         <CharacteristicsBreakdown productMetadata={props.productMetadata}/>
       </div>
     </div>
-  )
-  :
-    (<div className='rating-breakdown-container'>
-        <div className='number-stars-container'>
-          <div className='big-number'>
-            <h2>No Review Data</h2>
+  : <div className='rating-breakdown-container'>
+      <div className='number-stars-container'>
+        <div className='big-number'>
+          <h2>No Review Data</h2>
         </div>
       </div>
     </div>
-    )
 }
 export default RatingBreakdown;

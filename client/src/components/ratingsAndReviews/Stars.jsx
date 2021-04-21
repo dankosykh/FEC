@@ -21,7 +21,7 @@ const createStarSet = (avgQtr) => {
     starSet.push(-1);
   };
   return starSet;
-}
+};
 
 const mapStars = (stars) => (
   <div className='star-container'>
@@ -29,7 +29,7 @@ const mapStars = (stars) => (
       <SingleStar num={starType} size={stars.size} key={index} />)
     }
   </div>
-)
+);
 
 const Stars = (props) => ( props.size ?  mapStars(props) :  null );
 

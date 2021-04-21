@@ -34,9 +34,7 @@ const calc  = {
     return flag ? Number((keyValueSum / totalRatings).toFixed(2)) : null;
   },
 
-  percent: (favorable, total) => {
-    return favorable ? ((favorable / total).toFixed(2)) : null;
-  },
+  percent: (favorable, total) => favorable ? ((favorable / total).toFixed(2)) : null,
 
   calcMeta: (metaDataObject) => {
     let totals = {

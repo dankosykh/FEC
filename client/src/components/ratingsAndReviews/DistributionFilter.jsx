@@ -47,7 +47,7 @@ class DistributionFilter extends React.Component {
         </div>
       </div>
       )
-    : <React.Fragment></React.Fragment> ;
+    : <React.Fragment></React.Fragment>;
   }
 }
 

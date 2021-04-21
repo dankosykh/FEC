@@ -12,24 +12,24 @@ const starMaker = (starType, size, num) => (
     style={{width: `${size}px`}}
     alt={`${num}`}
   />
-)
+);
 
 const renderSwitch = (num, size) => {
-    switch(num) {
-      case 1:
-        return starMaker(StarFill, size, num);
-      case -1:
-        return starMaker(StarNoFill, size, num);
-      case .25:
-        return starMaker(StarQuarter, size, num);
-      case .50:
-        return starMaker(StarHalf, size, num);
-      case .75:
-        return starMaker(StarThreeQuarters, size, num);
-      default:
-        return starMaker(StarNoFill, size, num);
-    }
+  switch(num) {
+    case 1:
+      return starMaker(StarFill, size, num);
+    case -1:
+      return starMaker(StarNoFill, size, num);
+    case .25:
+      return starMaker(StarQuarter, size, num);
+    case .50:
+      return starMaker(StarHalf, size, num);
+    case .75:
+      return starMaker(StarThreeQuarters, size, num);
+    default:
+      return starMaker(StarNoFill, size, num);
   }
+};
 
 const SingleStar = (props) => (props ? renderSwitch(props.num, props.size) : null);
 

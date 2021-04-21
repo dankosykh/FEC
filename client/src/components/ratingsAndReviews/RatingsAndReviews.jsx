@@ -104,7 +104,6 @@ class RatingsAndReviews extends React.Component {
           </div>
       </div>
     );
-
   }
 }
 
