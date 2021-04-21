@@ -1,13 +1,12 @@
 var router = require('express').Router();
 var _merge = require('lodash/merge');
-var productController = require('../controller/products').productController;
-var reviewController = require('../controller/reviews').reviewController;
+var productController = require('../controller/products');
+var reviewController = require('../controller/reviews');
 
 router.get('/', (req, res, next) => {
   if (!req.query.id) {
     res.sendStatus(404);
   } else {
-
     var item;
     var itemStyles;
     var itemRating;
@@ -28,12 +27,8 @@ router.get('/', (req, res, next) => {
         combined.photos = itemStyles.results[0].photos;
         res.send(combined);
       })
-      .catch(err => {
-        res.sendStatus(500);
-      });
-  }
+      .catch(err => res.sendStatus(500));
+  };
 });
 
-
-
-module.exports.curentProductInformation = router;
+module.exports = router;

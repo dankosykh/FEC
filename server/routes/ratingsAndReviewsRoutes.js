@@ -1,8 +1,5 @@
 const router = require('express').Router();
-const rrController = require('../controller/ratingsAndReviewsController').ratingsAndReviewsController;
-const throttle = require('lodash/throttle')
-
-// Handle Reviews Routes __________________________
+const rrController = require('../controller/ratingsAndReviewsController');
 
 // GET list of reviews with defined params_________
 router.get('/', (req, res, next) => {
@@ -39,4 +36,4 @@ router.put('/report', (req, res, next) => {
     .catch(err => res.sendStatus(404))
 });
 
-module.exports.ratingsAndReviewsRoutes = router;
+module.exports = router;

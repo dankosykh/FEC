@@ -1,6 +1,6 @@
 var router = require('express').Router();
-var productController = require('../controller/products').productController;
-var reviewController = require('../controller/reviews').reviewController;
+var productController = require('../controller/products');
+var reviewController = require('../controller/reviews');
 
 /* -----------------------------helper functions ------------------------------*/
 
@@ -35,7 +35,6 @@ var getAllPhotosFromStyles = (styles) => {
   } else {
     return [styles[0].photos[0].thumbnail_url];
   }
-
 }
 
 /* -----------------------------------router --------------------------------- */
@@ -90,8 +89,6 @@ router.get('/', (req, res, next) => {
         res.status(500).send(err.message);
       });
   }
-})
+});
 
-
-module.exports.relatedProducts = router;
-module.exports.combineRelatedProductInformation = combineRelatedProductInformation;
+module.exports = router;

@@ -26,4 +26,4 @@ var interactionsController = {
   }
 }
 
-module.exports.interactionsController = interactionsController;
+module.exports = interactionsController;
