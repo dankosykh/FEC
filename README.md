@@ -85,9 +85,11 @@ The last item in this section is a pop-out modal that will allow a user to write
 
 Future enhancements would include a section for a reviewer to post pictures and display them, and a search feature that would filter reviews based on a search parameter.
 
+
 ### Demo gif with emphasis on Ratings and Reviews Module
 
-![CLDM_Demo](https://user-images.githubusercontent.com/14881563/115629772-d7502200-a2b7-11eb-855f-7b9a27a909cd.gif)
+![CLDM_Demo](https://user-images.githubusercontent.com/14881563/115630539-087d2200-a2b9-11eb-83b5-1c2efb064a2a.gif)
+
 
 
 ## Running The Tests
